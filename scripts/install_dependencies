@@ -1,0 +1,14 @@
+#!/bin/bash
+
+mkdir /var/aws-application
+
+chmod 755 -R /var/aws-application
+
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
+apt-get install nodejs-legacy ruby rubygems
+
+npm install gulp -g
+
+gem install sass

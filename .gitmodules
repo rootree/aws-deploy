@@ -1,0 +1,3 @@
+[submodule "appication"]
+	path = appication
+	url = git@github.com:rootree/aws-application.git
